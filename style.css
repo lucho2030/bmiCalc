@@ -1,0 +1,77 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.container label {
+    font-size: 24px;
+}
+
+.container input {
+    height: 30px;
+    width: 100px;
+    margin: 20px 5px auto;
+    font-size: 24px;
+    color: grey;
+    border: solid rgb(78, 76, 76);
+    border-radius: 5px;
+}
+
+.container button {
+    height: 45px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 30px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(78, 76, 76) ;
+}
+
+.result__container {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bmiChartContainer {
+    position: relative;
+    margin: 50px 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title__bmiChartContainer {
+    display: block;
+    margin: 0 auto;
+}
+
+.chart__bmiChartContainer {
+    display: block;
+    margin: 10px auto;
+}
+
+.chart__bmiChartContainer table {
+    position: relative;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 0 0 10px;
+    font-weight: bolder;
+}
+
+td {
+    padding: 10px;
+}
+
+.chart__bmiChartContainer table tr td {
+    border: solid rgb(78, 76, 76);
+}

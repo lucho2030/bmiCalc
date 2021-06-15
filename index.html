@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
     <title>BMI Calculator</title>
 </head>
 <body>
+    <main>
+        <div class="container">
+            <h1>Calculate your Body Mass Index (BMI)</h1>
+            <p>The BMI or Body Mass Index is a measure based on the height and weight.</p>
+            <p>Enter your height and weight using metric standards (sorry my imperial frinds):</p>
+            <div class="input">
+                <label>Height:</label>
+                <input type="text" id="height">
+            </div>
+            <div class="input">
+                <label>Weight:</label>
+                <input type="text" id="weight">
+            </div>
+            <button id="calculate">Calculate</button>
+            <div class="result__container" id="result"></div>
+        </div>
+    </main>
+    <div class=bmiChartContainer>
+        <h2 class="title__bmiChartContainer">BMI Chart</h2>
+        <div class="chart__bmiChartContainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rating</th>
+                        <th>Index</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Underweight</td>
+                        <td>> 18.5</td>
+                    </tr>
+                    <tr>
+                        <td>Normal weight</td>
+                        <td>D</td>
+                    </tr>
+                    <tr>
+                        <td>Overweight</td>
+                        <td>18.5 - 24.9</td>
+                    </tr>
+                    <tr>
+                        <td>Class I Obesity</td>
+                        <td>25 - 29.9</td>
+                    </tr>
+                    <tr>
+                        <td>Class II Obesity</td>
+                        <td>35 - 39.9</td>
+                    </tr>
+                    <tr>
+                        <td>Morbid Obesity</td>
+                        <td>>= 40</td>
+                    </tr>
+                </tbody>
+            </div>
+        </table>
+    </div>
     <script src="./main.js"></script>
+
+    <table>
+        <td>
+            <t</ti>
+        </td>
+    </table>
 </body>
 </html>
